@@ -11,5 +11,6 @@ void main() {
   print(name);
   var name1 = "ali";
   print(name);
-  name1 = 9.0;
+  name = 9.0;
+  print(name);
 }
