@@ -16,7 +16,7 @@ class ToDoList {
     print("Task added: $description");
   }
 
-  void removeTask({required String description, String}) {
+  void removeTask({required String description}) {
     for (var item in tasks) {
       if (item['description'] == description) {
         print("the remove task of the descprtion ${item[description]}");
