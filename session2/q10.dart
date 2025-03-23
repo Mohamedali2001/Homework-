@@ -12,9 +12,5 @@ void main() {
   //   print("No score");
   // }
   score = 10;
-  if (score != null) {
-    print(score);
-  } else {
-    print("No score");
-  }
+  print(score);
 }
