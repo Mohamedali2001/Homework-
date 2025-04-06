@@ -7,6 +7,8 @@ void main() {
   var words = ["ali", "ahmed", "mina", "Mohamed", "wale"];
   words.forEach((element) {
     print(
-        "the world of list after convert to uppercase :${element.toUpperCase()}");
+      "the world of list after convert to uppercase :${element.toUpperCase()}",
+    );
   });
+  
 }

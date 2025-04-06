@@ -25,13 +25,13 @@
 // }
 // حل اخر
 void main() {
-  print(twoSum([3, 2, 3], 6)); // [0,2]
+  print(twoSum([3, 2, 4], 6)); // [0,2]
 }
 
 List<int> twoSum(List<int> nums, int target) {
   var indexOfNumbers = {};
-// key in Map ==>numbers 
-//value in Map ==>index
+  // key in Map ==>numbers
+  //value in Map ==>index
   for (int i = 0; i < nums.length; i++) {
     int complementTarget = target - nums[i];
     if (indexOfNumbers.containsKey(complementTarget)) {

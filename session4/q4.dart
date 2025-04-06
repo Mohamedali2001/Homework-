@@ -29,5 +29,5 @@ void getPrice(String fruitName) {
     print("the price of $fruitName is equal :$price");
   } else {
     print("not found fruit");
-  }
+  }  
 }
