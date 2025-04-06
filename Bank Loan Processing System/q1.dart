@@ -9,7 +9,7 @@ void main() {
   system.applyLoan(loan2);
   system.applyLoan(loan3);
 
-  system.calculateInstallments(6); // حساب القسط الشهري على 12 شهر
+  system.calculateInstallments(6); 
 }
 
 abstract class Loan {
